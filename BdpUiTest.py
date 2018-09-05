@@ -33,7 +33,7 @@ class BdpUiTest(unittest.TestCase):
         els[1].send_keys("wuxianjin")
         print '=================='
         print len(els)
-        mima = self.__driver.find_elements_by_class_name('UIASecureTextField').send_keys("123qweasd")
+        mima = self.__driver.find_elements_by_class_name('UIASecureTextField').send_keys("")
         self.__driver.find_element_by_accessibility_id("登录").click()
         #self.__driver.find_element_by_name("登录").click()
         print 'Recommended UI Pass'
